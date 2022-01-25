@@ -1,7 +1,5 @@
 <?php
-  /*Register a new post type*/
-
-  function create_posttype() {
+function create_posttype() {
   register_post_type( 'wpll_dealers',
     array(
       'labels' => array(
@@ -16,4 +14,6 @@
 }
 add_action( 'init', 'create_posttype' );
 
-?>
+
+
+ ?>
