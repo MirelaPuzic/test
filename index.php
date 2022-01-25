@@ -15,5 +15,5 @@
   );
 }
 add_action( 'init', 'create_posttype' );
-<?php
+
 ?>
