@@ -19,6 +19,13 @@ register_post_type( 'dealers',
 }
 add_action( 'init', 'DealersPostType' );
  ?>
+ <!DOCTYPE html>
+ <html lang="en" dir="ltr">
+   <head>
+     <meta charset="utf-8">
+     <title>Test</title>
+  </head>
+ <body>
 
  <?php
  //Table for data
@@ -39,3 +46,9 @@ INSERT INTO `locations` (`id`, `title`, `address`, `lat`, `lon`, )
 INSERT INTO `locations` (`id`, `title`, `address`, `lat`, `lon`, )
   VALUES (2, 'A & R KITCHEN & BATH SHOWROOM INC.', '881 BEDFORD AVE.  BROOKLYN NY 11205',
     40.6936857, -73.955752 );
+
+    //Create a Simple map
+    </body>
+
+
+  </html>
